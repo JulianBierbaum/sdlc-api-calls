@@ -1,0 +1,50 @@
+## SDLC (Software Development Life Cycle)-Modelle
+
+- **Iterativer & Inkrementelles**
+    - Erklärung
+        - Schrittweise Entwicklung
+    - Projekt
+        - Projekt mit sich ändernen Anforderungen bzw. für wachsende Projekte
+        - z.B. Entwicklung einer Software mit Release Cycles (Alpha, Beta, RC, Release)
+    - Projektteam
+        - Keine besondere Schulung notwendig
+- **Kanban**
+    - Erklärung
+        - Agil, Visualisierung auf Kanban-Board, Tasks können im Board vor und zurück gehen
+    - Projekt
+        - Agile Projekte mit sich ändernter Priorität
+        - z.B. Wartung von Systemen wo immer Aufgaben mit unterschiedlichen Prioritäten anliegen
+    - Projektteam
+        - Team muss sich gut selbt organisieren können
+- **Scrum**
+    - Erklärung
+        - Agil, mit festen Phasen (Sprints) und fixer Aufgaben pro Sprint
+    - Projekt
+        - Agiles Projekt mit unklaren Anforderungen
+        - z.B. Entwicklung einer Website für einen Kunden wo immer Feedback eingeholt wird
+    - Projektteam
+        - Fixe Rollen, Team muss den Scrum Prozess können
+- **Spiralmodell**
+    - Erklärung
+        - Neues Ziel pro Durchlauf, Phasen werden pro Durchlauf durchgemacht
+    - Projekt
+        - Große, Komplexe Modelle
+        - z.B. Entwicklung einer großen Software wo das Projekt in einzele Komponenten oder Phasen aufgeteilt werden muss
+    - Projektteam
+        - Keine besonderen Anforderungen
+- **V-Modell**
+    - Erklärung
+        - Klassisch Sequenziell mit genauem Testen bei jeder Phase
+    - Projekt
+        - Kritische Projekte
+        - z.B. Entwicklung eines Kritischen Systems (Ampelsystem)
+    - Projektteam
+        - Keine besonderen Anforderungen
+- **Wasserfallmodell**
+    - Erklärung
+        - Klassisch, fester Ablauf der Phase
+    - Projekt
+        - Genaue Anforderungen für einen bekannten Projekttyp
+        - z.B. Entwicklung einer Website für eine Regierung, welche fixen Anforderungen entsprechen soll
+    - Projektteam
+        - Keine besonderen Anforderungen
