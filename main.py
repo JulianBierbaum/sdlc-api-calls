@@ -88,6 +88,7 @@ def post_xp_model(title: str):
     else:
         return HTTPException(status_code=404, detail="title not found")
 
+
 @app.post("/models/rup")
 def post_rup_model(title: str):
     if title == "rup":
