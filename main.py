@@ -1,4 +1,4 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
@@ -79,3 +79,18 @@ def get_waterfall_model():
         },
         "team_requirements": "Keine besonderen Anforderungen",
     }
+
+
+@app.post("/models/xp")
+def post_xp_model(title: str):
+    if title == "xp":
+        return {"title": "Extreme Programming"}
+    else:
+        return HTTPException(status_code=404, detail="title not found")
+
+@app.post("/models/rup")
+def post_rup_model(title: str):
+    if title == "rup":
+        return {"title": "Rational Unified Process"}
+    else:
+        return HTTPException(status_code=404, detail="title not found")
